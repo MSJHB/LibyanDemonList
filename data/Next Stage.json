@@ -1,0 +1,18 @@
+{
+    "id": 132898839,
+    "name": "Next Stage",
+    "author": "Zipixbox",
+    "creators": ["Zipixbox", "Wespdx", "GD Iris", "ItsHybrid"],
+    "verifier": "spcreat",
+    "verification": "https://youtu.be/N873EQB21Yo?si=vMiyQa5grU5hxXeh",
+    "percentToQualify": 100,
+    "password": "Free password",
+    "records": [
+        {
+            "user": "Leyas",
+            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
+}
