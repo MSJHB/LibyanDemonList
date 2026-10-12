@@ -1,0 +1,18 @@
+{
+    "id": 55224007,
+    "name": "distraught",
+    "author": "Alkali",
+    "creators": ["Alkali", "Eclipsed", "Salaxium", "Prism", "Juhou", "Vapen", "YakobNugget", "Lqah", "Voltex", "Failure444"],
+    "verifier": "TGI",
+    "verification": "https://youtu.be/nW2KFYFgXTA?si=xz2hK7gZe_D0o4pN",
+    "percentToQualify": "100",
+    "password": "685917",
+    "records": [
+        {
+            "user": "Leyas",
+            "link": "https://youtu.be/nW2KFYFgXTA?si=xz2hK7gZe_D0o4pN",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
+}
