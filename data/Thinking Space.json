@@ -3,7 +3,7 @@
     "name": "Thinking Space",
     "author": "Atomic",
     "creators": ["HidekiX"],
-    "VERIFIER": "Atomic",
+    "verifier": "Atomic",
     "verification": "https://youtu.be/iHf2nanWjvE?si=m3a34N-C-GbiP4yA",
     "percentToQualify": "100",
     "password": "235236",
