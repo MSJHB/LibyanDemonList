@@ -10,7 +10,7 @@ export default {
         },
         verifier: {
             type: String,
-            required: true,
+            required: false, // جعلناه اختيارياً حتى لا يقذف خطأ لو كان فارغاً
         },
     },
     template: `
@@ -26,10 +26,12 @@ export default {
                 <p class="type-body">
                     <span>{{ author }}</span>
                 </p>
-                <div class="type-title-sm">Verifier</div>
-                <p class="type-body">
-                    <span>{{ verifier }}</span>
-                </p>
+                <template v-if="verifier">
+                    <div class="type-title-sm">Verifier</div>
+                    <p class="type-body">
+                        <span>{{ verifier }}</span>
+                    </p>
+                </template>
             </template>
             <template v-else>
                 <div class="type-title-sm">Creators</div>
@@ -39,10 +41,12 @@ export default {
                         ><span v-if="index < creators.length - 1">, </span>
                     </template>
                 </p>
-                <div class="type-title-sm">Verifier</div>
-                <p class="type-body">
-                    <span>{{ verifier }}</span>
-                </p>
+                <template v-if="verifier">
+                    <div class="type-title-sm">Verifier</div>
+                    <p class="type-body">
+                        <span>{{ verifier }}</span>
+                    </p>
+                </template>
             </template>
             <div class="type-title-sm">Publisher</div>
             <p class="type-body">
