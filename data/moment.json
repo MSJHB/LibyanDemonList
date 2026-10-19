@@ -1,0 +1,17 @@
+{
+    "id": 68848817,
+    "name": "moment",
+    "author": "Lexycat",
+    "creators": ["icedcave", "Lexycat", "Stormfly"],
+    "verification": "https://www.youtube.com/watch?v=N3jkXYerhno",
+    "percentToQualify": "100",
+    "password": "001450",
+    "records": [
+        {
+            "user": "HunterX44",
+            "link": "https://www.youtube.com/watch?v=N3jkXYerhno",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
