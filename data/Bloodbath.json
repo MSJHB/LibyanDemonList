@@ -1,0 +1,23 @@
+{
+    "id": 10565740,
+    "name": "Bloodbath",
+    "author": "Riot",
+    "creators": ["Asonicmen", "Evasium", "Crack", "Riot", "GgB0y", "Michigun", "Etzer", "Giron", "Havok", "weoweoteo", "Vermillion"],
+    "verification": "https://youtu.be/S-5WSFZLwB8?si=ArSgFhw3ffUYGisj",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Leyas",
+            "link": "https://youtu.be/S-5WSFZLwB8?si=ArSgFhw3ffUYGisj",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Mrpablo96",
+            "link": "https://youtu.be/Uqm0xXn4FK8?si=7lENldfiV_WJt6-Q",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
