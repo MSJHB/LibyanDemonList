@@ -39,7 +39,8 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
-                    <LevelAuthors :author="level.author" :creators="level.creators"></LevelAuthors>
+                    <!-- تم إضافة تمرير الـ verifier هنا -->
+                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
@@ -138,11 +139,11 @@ export default {
     }),
     computed: {
         level() {
-            return this.list[this.selected][0];
+            return this.list[this.selected]?.[0];
         },
         video() {
-            if (!this.level.showcase) {
-                return embed(this.level.verification);
+            if (!this.level?.showcase) {
+                return embed(this.level?.verification);
             }
 
             return embed(
@@ -153,11 +154,9 @@ export default {
         },
     },
     async mounted() {
-        // Hide loading spinner
         this.list = await fetchList();
         this.editors = await fetchEditors();
 
-        // Error handling
         if (!this.list) {
             this.errors = [
                 "Failed to load list. Retry in a few minutes or notify list staff.",
